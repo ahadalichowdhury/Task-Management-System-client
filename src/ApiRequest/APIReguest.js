@@ -9,7 +9,7 @@ import {SetProfile} from "../Redux/state-slice/profileSlice";
 //call the gettoken function from sessionhelper.js
 const axiosHeader = { headers: { token: getToken() } };
 
-let BaseURL = "https://tms-ycv6.onrender.com//api/v1";
+let BaseURL = "https://tms-ycv6.onrender.com/api/v1";
 export function RegistrationRequest(
   email,
   firstName,
